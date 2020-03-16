@@ -1,9 +1,18 @@
 {
   "expo": {
     "name": "Guess Game LMP",
-    "slug": "app",
+		"slug": "guess-game-lmp",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
+		"sdkVersion": "36.0.0",
+		"ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.readmal.guessapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.readmal.guessapp",
+      "versionCode": 1
+    },
     "platforms": [
       "ios",
       "android",
@@ -23,8 +32,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "description": "Ohh ! Beginner App",
+    "githubUrl": "https://github.com/lwinmoepaing/react-guess-app"
   }
 }
